@@ -1,41 +1,114 @@
-## RC Car arduino + HC-06 / ESP32
- El arduno+hc-06 solo se conecta con android. en cambio el ESP32 tiene una conectividad mas flexible
-L9110S → Arduino
+# 🚗 RC Car con Arduino + Bluetooth HC-06 / ESP32
 
-#El módulo basado en el L9110S tiene:
-A-1A
-A-1B
-B-1A
-B-1B
-VCC
-GND
+Este proyecto consiste en un **auto RC controlado por Bluetooth**, utilizando un **Arduino Mega + módulo HC-06** o alternativamente un **ESP32**.
 
-#🚗 Motor TRACCIÓN (adelante / atrás)
+📌 **Nota importante:**  
+- El **Arduino + HC-06** funciona principalmente con **Android** (Bluetooth clásico).
+- El **ESP32** ofrece conectividad más flexible (Bluetooth BLE, WiFi, etc.), por lo que es una opción más moderna.
 
-Motor conectado a:
-A-1A
-A-1B
-Arduino:
-A-1A → Pin 5
-A-1B → Pin 6
+---
 
-#↔️ Motor DIRECCIÓN (izquierda / derecha)
+## 🔌 Driver de motores: L9110S
 
-Motor conectado a:
-B-1A
-B-1B
+Se utiliza un módulo basado en el chip **L9110S** para controlar dos motores DC:
 
-#Arduino:
+- Motor de **tracción** (adelante / atrás)
+- Motor de **dirección** (izquierda / derecha)
 
-B-1A → Pin 9
-B-1B → Pin 10
+---
 
-#📡 Bluetooth HC-06
+### 📍 Pines del módulo L9110S
 
-#Módulo basado en HC-06
+El módulo cuenta con los siguientes pines:
 
-Conexión:
-VCC → 5V Arduino
-GND → GND
-TX → RX1 (Pin 19 del Mega)
-RX → TX1 (Pin 18 del Mega)
+- `A-1A`
+- `A-1B`
+- `B-1A`
+- `B-1B`
+- `VCC`
+- `GND`
+
+---
+
+## 🚗 Motor de TRACCIÓN (adelante / atrás)
+
+📌 Motor conectado al canal **A** del L9110S:
+
+| L9110S | Arduino Mega |
+|-------|--------------|
+| A-1A  | Pin 5        |
+| A-1B  | Pin 6        |
+
+---
+
+## ↔️ Motor de DIRECCIÓN (izquierda / derecha)
+
+📌 Motor conectado al canal **B** del L9110S:
+
+| L9110S | Arduino Mega |
+|-------|--------------|
+| B-1A  | Pin 9        |
+| B-1B  | Pin 10       |
+
+---
+
+## ⚡ Alimentación del módulo L9110S
+
+| L9110S | Arduino Mega |
+|-------|--------------|
+| VCC   | 5V           |
+| GND   | GND          |
+
+---
+
+## 📡 Bluetooth HC-06 (Bluetooth clásico)
+
+El módulo **HC-06** permite controlar el auto mediante una app Bluetooth desde un teléfono Android.
+
+### 🔌 Conexión HC-06 → Arduino Mega
+
+| HC-06 | Arduino Mega |
+|------|--------------|
+| VCC  | 5V           |
+| GND  | GND          |
+| TX   | RX1 (Pin 19) |
+| RX   | TX1 (Pin 18) |
+
+📌 Se utiliza el puerto serial **Serial1** del Arduino Mega.
+
+---
+
+## 🧠 Alternativa: ESP32
+
+El ESP32 puede reemplazar el Arduino Mega + HC-06, ofreciendo:
+
+✅ Bluetooth clásico y BLE  
+✅ WiFi  
+✅ Mayor flexibilidad en control remoto  
+✅ Posibilidad de control desde iOS / Web
+
+---
+
+## 🛠️ Resumen del cableado completo
+
+### 🔩 L9110S
+
+| Función     | L9110S | Arduino Mega |
+|------------|--------|--------------|
+| Tracción   | A-1A   | Pin 5        |
+| Tracción   | A-1B   | Pin 6        |
+| Dirección  | B-1A   | Pin 9        |
+| Dirección  | B-1B   | Pin 10       |
+| Alimentación | VCC  | 5V           |
+| Tierra     | GND    | GND          |
+
+---
+
+### 📡 HC-06
+
+| HC-06 | Arduino Mega |
+|------|--------------|
+| VCC  | 5V           |
+| GND  | GND          |
+| TX   | RX1 (Pin 19) |
+| RX   | TX1 (Pin 18) |
