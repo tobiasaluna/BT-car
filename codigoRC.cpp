@@ -61,12 +61,12 @@ void loop() {
         detenerTodo();
         break;
 
-      case 'U': // 🔦 Encender luces
+      case 'U': // Encender luces
         digitalWrite(luz1, HIGH);
         digitalWrite(luz2, HIGH);
         break;
 
-      case 'u': // 📴 Apagar luces
+      case 'u': // Apagar luces
         digitalWrite(luz1, LOW);
         digitalWrite(luz2, LOW);
         break;
