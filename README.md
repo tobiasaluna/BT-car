@@ -10,7 +10,7 @@ Este proyecto consiste en un **auto RC controlado por Bluetooth**, utilizando un
 
 ## 🔌 Driver de motores: L9110S
 
-Se utiliza un módulo basado en el chip **L9110S** para controlar dos motores DC:
+Se utiliza un módulo basado en el chip **L9110S** para controlar dos motores DC (cada motor con su respectivo capacitor ceramico 104):
 
 - Motor de **tracción** (adelante / atrás)
 - Motor de **dirección** (izquierda / derecha)
