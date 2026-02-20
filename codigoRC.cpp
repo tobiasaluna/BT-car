@@ -6,6 +6,10 @@ int motorA2 = 6;
 int motorB1 = 9;
 int motorB2 = 10;
 
+// Luces delanteras
+int luz1 = 7;
+int luz2 = 8;
+
 char comando;
 
 void setup() {
@@ -13,6 +17,11 @@ void setup() {
   pinMode(motorA2, OUTPUT);
   pinMode(motorB1, OUTPUT);
   pinMode(motorB2, OUTPUT);
+  pinMode(luz1, OUTPUT);
+  pinMode(luz2, OUTPUT);
+
+  digitalWrite(luz1, LOW);
+  digitalWrite(luz2, LOW);
 
   Serial1.begin(9600); // HC-06
 }
@@ -50,6 +59,16 @@ void loop() {
 
       case 'S': // Stop
         detenerTodo();
+        break;
+
+      case 'U': // 🔦 Encender luces
+        digitalWrite(luz1, HIGH);
+        digitalWrite(luz2, HIGH);
+        break;
+
+      case 'u': // 📴 Apagar luces
+        digitalWrite(luz1, LOW);
+        digitalWrite(luz2, LOW);
         break;
     }
   }
