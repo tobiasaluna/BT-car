@@ -93,22 +93,13 @@ El ESP32 puede reemplazar el Arduino Mega + HC-06, ofreciendo:
 
 ### 🔩 L9110S
 
-| Función     | L9110S | Arduino Mega |
-|------------|--------|--------------|
-| Tracción   | A-1A   | Pin 5        |
-| Tracción   | A-1B   | Pin 6        |
-| Dirección  | B-1A   | Pin 9        |
-| Dirección  | B-1B   | Pin 10       |
-| Alimentación | VCC  | 5V           |
-| Tierra     | GND    | GND          |
+| Función     | L9110S | ESP32     |
+|------------|--------|------------|
+| Tracción   | A-1A   | D26        |
+| Tracción   | A-1B   | D27        |
+| Dirección  | B-1A   | D33        |
+| Dirección  | B-1B   | D32        |
+| Alimentación | VCC  | VIN        |
+| Tierra     | GND    | GND        |
 
 ---
-
-### 📡 HC-06
-
-| HC-06 | Arduino Mega |
-|------|--------------|
-| VCC  | 5V           |
-| GND  | GND          |
-| TX   | RX1 (Pin 19) |
-| RX   | TX1 (Pin 18) |
