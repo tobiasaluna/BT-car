@@ -4,6 +4,7 @@
 #include <BLE2902.h>
 
 #define A1A 26
+#define FRONT_LED 25
 #define A1B 27
 #define B1A 33
 #define B1B 32
@@ -26,6 +27,8 @@ void setup() {
 
   pinMode(B1A, OUTPUT);
   pinMode(B1B, OUTPUT);
+  pinMode(FRONT_LED, OUTPUT);
+  digitalWrite(FRONT_LED, LOW);
 
   // PWM tracción
   ledcAttach(A1A, 1000, 8);
@@ -86,6 +89,14 @@ void loop() {
       ledcWrite(A1B, 0);
       digitalWrite(B1A, LOW);
       digitalWrite(B1B, LOW);
+      break;
+    
+    case 'W':   // Encender luces
+      digitalWrite(FRONT_LED, HIGH);
+      break;
+
+    case 'O':   // Apagar luces
+      digitalWrite(FRONT_LED, LOW);
       break;
   }
 }
