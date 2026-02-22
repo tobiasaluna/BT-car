@@ -103,3 +103,7 @@ El ESP32 puede reemplazar el Arduino Mega + HC-06, ofreciendo:
 | Tierra     | GND    | GND        |
 
 ---
+
+![WhatsApp Image 2026-02-21 at 21 33 25](https://github.com/user-attachments/assets/b17c118d-0331-4e6b-aefe-dc850e415347)
+
+![WhatsApp Image 2026-02-21 at 21 33 44](https://github.com/user-attachments/assets/1a3efa4c-fbff-4211-aeb2-5751fcada953)
