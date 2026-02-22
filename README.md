@@ -106,5 +106,5 @@ El ESP32 puede reemplazar el Arduino Mega + HC-06, ofreciendo:
 
 ![WhatsApp Image 2026-02-21 at 21 41 01](https://github.com/user-attachments/assets/e55f0203-f45d-4d2e-a82b-a8227e4cc26f)
 
-![WhatsApp Image 2026-02-21 at 21 41 01 (1)](https://github.com/user-attachments/assets/48c763fb-26c9-4d03-bb25-8f270bfd3cc4)
+![WhatsApp Image 2026-02-21 at 21 41 01 (2)](https://github.com/user-attachments/assets/0aab7bce-6a71-441e-b27b-ef6ff77e2891)
 
