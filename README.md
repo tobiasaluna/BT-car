@@ -1,9 +1,8 @@
-# 🚗 RC Car con Arduino + Bluetooth HC-06 / ESP32
+# 🚗 RC Car con ESP32 + Doble Puente l9110s
 
-Este proyecto consiste en un **auto RC controlado por Bluetooth**, utilizando un **Arduino Mega + módulo HC-06** o alternativamente un **ESP32**.
+Este proyecto consiste en un auto a control remoto viejo que rescaté junto con un **ESP32** y un L9110s.
 
 📌 **Nota importante:**  
-- El **Arduino + HC-06** funciona principalmente con **Android** (Bluetooth clásico).
 - El **ESP32** ofrece conectividad más flexible (Bluetooth BLE, WiFi, etc.), por lo que es una opción más moderna.
 
 ---
@@ -54,38 +53,10 @@ El módulo cuenta con los siguientes pines:
 
 ## ⚡ Alimentación del módulo L9110S
 
-| L9110S | Arduino Mega |
+| L9110S | ESP32       |
 |-------|--------------|
 | VCC   | 5V           |
 | GND   | GND          |
-
----
-
-## 📡 Bluetooth HC-06 (Bluetooth clásico)
-
-El módulo **HC-06** permite controlar el auto mediante una app Bluetooth desde un teléfono Android.
-
-### 🔌 Conexión HC-06 → Arduino Mega
-
-| HC-06 | Arduino Mega |
-|------|--------------|
-| VCC  | 5V           |
-| GND  | GND          |
-| TX   | RX1 (Pin 19) |
-| RX   | TX1 (Pin 18) |
-
-📌 Se utiliza el puerto serial **Serial1** del Arduino Mega.
-
----
-
-## 🧠 Alternativa: ESP32
-
-El ESP32 puede reemplazar el Arduino Mega + HC-06, ofreciendo:
-
-✅ Bluetooth clásico y BLE  
-✅ WiFi  
-✅ Mayor flexibilidad en control remoto  
-✅ Posibilidad de control desde iOS / Web
 
 ---
 
