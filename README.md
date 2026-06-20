@@ -93,7 +93,7 @@ https://github.com/user-attachments/assets/f4d32594-7c74-4ef1-8b25-d2caf8b5c586
 
 
 ### Cosas para mejorar:
-- La alimentación, asi como está, toda la energía pasa por el ESP32. Usar la bateria para la placa y por separado para el l9110s sería ideal.
+- La alimentación. Así como está, toda la energía pasa por el ESP32. Usar la bateria para la placa y por separado para el l9110s sería ideal para asegurar que no se queme nada.
 - Optimizar el código para hacer que el manejo sea más cómodo.
 - Agregar sensor de reconocimiento de obstaculos.
 - Agregar una cámara.
