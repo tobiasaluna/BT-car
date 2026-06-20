@@ -75,7 +75,5 @@ El módulo cuenta con los siguientes pines:
 
 ---
 
-![WhatsApp Image 2026-02-21 at 21 41 01](https://github.com/user-attachments/assets/e55f0203-f45d-4d2e-a82b-a8227e4cc26f)
-
-![WhatsApp Image 2026-02-21 at 21 41 01 (2)](https://github.com/user-attachments/assets/0aab7bce-6a71-441e-b27b-ef6ff77e2891)
+<img width="3980" height="2985" alt="WhatsApp Image 2026-06-19 at 22 49 40" src="https://github.com/user-attachments/assets/2a127f9e-625b-435a-b341-98ec0309e302" />
 
