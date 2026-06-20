@@ -4,7 +4,8 @@ Este proyecto consiste en un auto a control remoto viejo que rescaté junto con 
 
 📌 **Nota importante:**  
 - El **ESP32** ofrece conectividad más flexible (Bluetooth BLE, WiFi, etc.), por lo que es una opción más moderna.
-
+- La fuente de alimentación es un cargador portátil de 5v 5000mAh, sobrado pero da energía al puente a través del ESP32.
+  
 ---
 
 ## 🔌 Driver de motores: L9110S
@@ -89,3 +90,10 @@ El módulo cuenta con los siguientes pines:
 
 https://github.com/user-attachments/assets/f4d32594-7c74-4ef1-8b25-d2caf8b5c586
 
+
+
+### Cosas para mejorar:
+- La alimentación, asi como está, toda la energía pasa por el ESP32. Usar la bateria para la placa y por separado para el l9110s sería ideal.
+- Optimizar el código para hacer que el manejo sea más cómodo.
+- Agregar sensor de reconocimiento de obstaculos.
+- Agregar una cámara.
