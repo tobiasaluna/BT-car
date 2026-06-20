@@ -1,6 +1,6 @@
 # 🚗 RC Car con ESP32 + Doble Puente l9110s
 
-Este proyecto consiste en un auto a control remoto viejo que rescaté junto con un **ESP32** y un L9110s.
+Este proyecto consiste en un auto a control remoto viejo que rescaté junto con un **ESP32** y un L9110s. No tenía su respectivo mando así que opté por utilizar una App genérica de AppStore, BLE Controller. 
 
 📌 **Nota importante:**  
 - El **ESP32** ofrece conectividad más flexible (Bluetooth BLE, WiFi, etc.), por lo que es una opción más moderna.
