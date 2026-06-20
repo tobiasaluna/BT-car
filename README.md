@@ -85,7 +85,7 @@ El módulo cuenta con los siguientes pines:
 
 <img width="4032" height="3024" alt="WhatsApp Image 2026-06-19 at 22 54 48 (1)" src="https://github.com/user-attachments/assets/298e97f7-1cba-4f14-978f-414816e679fb" />
 
-<img width="3024" height="4032" alt="WhatsApp Image 2026-06-19 at 22 49 46" src="https://github.com/user-attachments/assets/d032f1d3-79e4-4268-9879-a12faa52256b" />
+<img width="3024" height="4032" alt="tracción girando" src="https://github.com/user-attachments/assets/d032f1d3-79e4-4268-9879-a12faa52256b" />
 
 
 
