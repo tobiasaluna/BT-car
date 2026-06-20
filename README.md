@@ -87,11 +87,5 @@ El módulo cuenta con los siguientes pines:
 
 
 
-https://github.com/user-attachments/assets/58d0ac38-8339-428d-b2c3-f6ba597e8f6e
-
-
-
-
-
-https://github.com/user-attachments/assets/471f6df1-c845-4f79-9343-166700d7be53
+https://github.com/user-attachments/assets/f4d32594-7c74-4ef1-8b25-d2caf8b5c586
 
