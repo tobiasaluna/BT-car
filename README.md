@@ -79,4 +79,15 @@ El módulo cuenta con los siguientes pines:
 
 <img width="4032" height="3024" alt="WhatsApp Image 2026-06-19 at 22 49 43" src="https://github.com/user-attachments/assets/172ed9d5-f5f9-4486-8c60-be715b897ca5" />
 
-<img width="3024" height="4032" alt="WhatsApp Image 2026-06-19 at 22 49 45" src="https://github.com/user-attachments/assets/092f8337-3cec-40be-9bc0-9fb7c79aa56e" />
+<img width="4032" height="3024" alt="WhatsApp Image 2026-06-19 at 22 54 46" src="https://github.com/user-attachments/assets/f9ee2a62-55b8-4a8b-9055-456047df59f9" />
+
+<img width="4032" height="3024" alt="WhatsApp Image 2026-06-19 at 22 54 48" src="https://github.com/user-attachments/assets/62179e1d-0333-4048-80fc-1832e596a8ca" />
+
+<img width="4032" height="3024" alt="WhatsApp Image 2026-06-19 at 22 54 48 (1)" src="https://github.com/user-attachments/assets/298e97f7-1cba-4f14-978f-414816e679fb" />
+
+<img width="3024" height="4032" alt="WhatsApp Image 2026-06-19 at 22 49 46" src="https://github.com/user-attachments/assets/d032f1d3-79e4-4268-9879-a12faa52256b" />
+
+
+
+https://github.com/user-attachments/assets/471f6df1-c845-4f79-9343-166700d7be53
+
